@@ -3,12 +3,12 @@ import cors from "cors";
 import grammarRoutes from "./routes/index";
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/grammars", grammarRoutes);
+app.use("/api", grammarRoutes);
 
 app.listen(port, () => {
   console.log(`後端啟動  http://localhost:${port}`);
