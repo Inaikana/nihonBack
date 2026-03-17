@@ -168,4 +168,158 @@ const data = [
       "日文教学 _初級日語#3｜日語語法解釋 ここ／そこ／あそこは～です、～は～（場所）です、～はどこですか、～も～", // 影片標題
     quizs: [{ question: "", options: [], answer: "" }],
   },
+  {
+    jid: "0401", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "4", // 集數
+    order: "01", // 第幾個
+    timestamp: 12, // 影片時間(秒)
+    grammarPattern: "(名詞A) の (名詞B)", // 日文文法公式
+    grammarSummary: "の", // 日文文法(簡式)
+    chineseMeaning: "A的B", // 中文
+    chineseSummary: "的", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "これは|田中[たなか]さんのパソコン",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=c1Mc-GJHe5k&t=12s", // 網址
+    videoTitle:
+      "日文教學_初級日語#4 ｜日語語法解釋 ～の～（所属）、この／その／あの～は～です、どれ／どの～、～はいくらですか", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0402", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "4", // 集數
+    order: "02", // 第幾個
+    timestamp: 64, // 影片時間(秒)
+    grammarPattern: "この / その / あの (名詞A) の (名詞B) です", // 日文文法公式
+    grammarSummary: "この / その / あの ～ の", // 日文文法(簡式)
+    chineseMeaning: "這個 / 那個 / (更遠的那個) A 是 B", // 中文
+    chineseSummary: "這個 / 那個 / (更遠的那個) 是 ～ ", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "この|本[ほん]は|大学[だいがく]の|教科書[きょうかしょ]です",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=c1Mc-GJHe5k&t=64s", // 網址
+    videoTitle:
+      "日文教學_初級日語#4 ｜日語語法解釋 ～の～（所属）、この／その／あの～は～です、どれ／どの～、～はいくらですか", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0403", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "4", // 集數
+    order: "03", // 第幾個
+    timestamp: 183, // 影片時間(秒)
+    grammarPattern: "どれ / どの", // 日文文法公式
+    grammarSummary: "どれ / どの", // 日文文法(簡式)
+    chineseMeaning: "哪個 / 哪一個", // 中文
+    chineseSummary: "哪個 / 哪一個", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|日本[にほん]|料理[りょうり]の|中[なか]にどれが|好[す]きですか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=c1Mc-GJHe5k&t=183s", // 網址
+    videoTitle:
+      "日文教學_初級日語#4 ｜日語語法解釋 ～の～（所属）、この／その／あの～は～です、どれ／どの～、～はいくらですか", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0404", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "4", // 集數
+    order: "04", // 第幾個
+    timestamp: 288, // 影片時間(秒)
+    grammarPattern: "(名詞) はいくらですか", // 日文文法公式
+    grammarSummary: "いくらですか", // 日文文法(簡式)
+    chineseMeaning: "(名詞) 多少錢 ?", // 中文
+    chineseSummary: "多少錢", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "この|漫画[まんが]はいくらですか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=c1Mc-GJHe5k&t=288s", // 網址
+    videoTitle:
+      "日文教學_初級日語#4 ｜日語語法解釋 ～の～（所属）、この／その／あの～は～です、どれ／どの～、～はいくらですか", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0502", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "5", // 集數
+    order: "02", // 第幾個
+    timestamp: 227, // 影片時間(秒)
+    grammarPattern: "今何時ですか", // 日文文法公式
+    grammarSummary: "今何時ですか", // 日文文法(簡式)
+    chineseMeaning: "現在幾點?", // 中文
+    chineseSummary: "現在幾點?", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|今[いま]|何[なん]|時[じ]ですか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=oiIUGOwQhmY&t=227s", // 網址
+    videoTitle:
+      "日文教学_初級日語#5｜日語語法解釋 何時何分、今何時ですか、〔時間〕に～、〔時間〕から〔時間〕まで", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0503", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "5", // 集數
+    order: "03", // 第幾個
+    timestamp: 325, // 影片時間(秒)
+    grammarPattern: "(時間)に", // 日文文法公式
+    grammarSummary: "(時間)に", // 日文文法(簡式)
+    chineseMeaning: "在(時間)～", // 中文
+    chineseSummary: "在(時間)", // 中文(簡式)
+    notes: ["に作為特定的時間點的助詞 為其中一種用法"], // 備註
+    examples: [
+      {
+        japanese: "|午後[ごご]|一[いち]|時[じ]に|休[やす]みます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=oiIUGOwQhmY&t=325s", // 網址
+    videoTitle:
+      "日文教学_初級日語#5｜日語語法解釋 何時何分、今何時ですか、〔時間〕に～、〔時間〕から〔時間〕まで", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0504", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "5", // 集數
+    order: "04", // 第幾個
+    timestamp: 424, // 影片時間(秒)
+    grammarPattern: "(時間1)から(時間2)まで", // 日文文法公式
+    grammarSummary: "～から～まで", // 日文文法(簡式)
+    chineseMeaning: "從(時間1)到(時間2)", // 中文
+    chineseSummary: "從～到～", // 中文(簡式)
+    notes: ["加入「何時」變成 : 從幾點到幾點"], // 備註
+    examples: [
+      {
+        japanese:
+          "|朝[あさ]|八[はち]|時[じ]から|夜[よる]|七[しち]|時[じ]まで|日本[にほん]|語[ご]を|勉強[べんきょう]します",
+        chinese: "",
+      },
+      {
+        japanese:
+          "|銀行[ぎんこう]は|何時[なんじ]から|何時[なんじ]まで|働[はたら]きますか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=oiIUGOwQhmY&t=424s", // 網址
+    videoTitle:
+      "日文教学_初級日語#5｜日語語法解釋 何時何分、今何時ですか、〔時間〕に～、〔時間〕から〔時間〕まで", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
 ];
