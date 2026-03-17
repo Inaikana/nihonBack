@@ -4,24 +4,25 @@ import { supabase } from "./src/config/supabase.ts";
 
 const data = [
   {
-    jid: "0202", // 自製id 第幾集的第幾個 例:第1集第1個
-    episodeNumber: "2", // 集數
-    order: "02", // 第幾個
-    timestamp: 121, // 影片時間(秒)
-    grammarPattern: "(名詞) はどれですか", // 日文文法公式
-    grammarSummary: "～はどれですか", // 日文文法(簡式)
-    chineseMeaning: "(名詞) 是哪個 ?", // 中文
-    chineseSummary: "～是哪個 ?", // 中文(簡式)
+    jid: "0304", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "3", // 集數
+    order: "04", // 第幾個
+    timestamp: 302, // 影片時間(秒)
+    grammarPattern: "(名詞A) も (名詞A)です", // 日文文法公式
+    grammarSummary: "も", // 日文文法(簡式)
+    chineseMeaning: "A是B也是", // 中文
+    chineseSummary: "也是", // 中文(簡式)
     notes: [], // 備註
     examples: [
       {
-        japanese: "|日本[にほん]の|漫画[まんが]はどれですか",
+        japanese:
+          "|図書館[としょかん]は|一階[いっかい]です。お|手[て]|洗[あら]いも|一階[いっかい]です",
         chinese: "",
       },
     ],
-    referenceUrl: "https://www.youtube.com/watch?v=OrnbiMedefk&t=121s", // 網址
+    referenceUrl: "https://www.youtube.com/watch?v=jbcq_HlCVQ4&t=302s", // 網址
     videoTitle:
-      "日文教学 _初級日語#2｜日語語法解釋 これ／それ／あれ、～はどれですか、～は何ですか、～は誰ですか", // 影片標題
+      "日文教学 _初級日語#3｜日語語法解釋 ここ／そこ／あそこは～です、～は～（場所）です、～はどこですか、～も～", // 影片標題
     quizs: [{ question: "", options: [], answer: "" }],
   },
 ];
