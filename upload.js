@@ -4,30 +4,24 @@ import { supabase } from "./src/config/supabase.ts";
 
 const data = [
   {
-    jid: "0601" // 自製id 第幾集的第幾個 例:第1集第1個
-    episodeNumber: "5", // 集數
-    order: "04", // 第幾個
-    timestamp: 424, // 影片時間(秒)
-    grammarPattern: "(時間1)から(時間2)まで", // 日文文法公式
-    grammarSummary: "～から～まで", // 日文文法(簡式)
-    chineseMeaning: "從(時間1)到(時間2)", // 中文
-    chineseSummary: "從～到～", // 中文(簡式)
-    notes: ["加入「何時」變成 : 從幾點到幾點"], // 備註
+    jid: "0701", // 自製id 第幾集的第幾個 例:第1集第1個
+    // episodeNumber: "6", // 集數
+    order: "5", // 第幾個
+    timestamp: 763, // 影片時間(秒)
+    grammarPattern: "と", // 日文文法公式
+    grammarSummary: "と", // 日文文法(簡式)
+    chineseMeaning: "和", // 中文
+    chineseSummary: "和", // 中文(簡式)
+    notes: [], // 備註
     examples: [
       {
-        japanese:
-          "|朝[あさ]|八[はち]|時[じ]から|夜[よる]|七[しち]|時[じ]まで|日本[にほん]|語[ご]を|勉強[べんきょう]します",
-        chinese: "",
-      },
-      {
-        japanese:
-          "|銀行[ぎんこう]は|何時[なんじ]から|何時[なんじ]まで|働[はたら]きますか",
+        japanese: "|土曜日[どようび]と|日曜日[にちようび]に|休[やす]みます",
         chinese: "",
       },
     ],
-    referenceUrl: "https://www.youtube.com/watch?v=oiIUGOwQhmY&t=424s", // 網址
+    referenceUrl: "https://www.youtube.com/watch?v=qWKItLmn_3g&t=763s", // 網址
     videoTitle:
-      "日文教学_初級日語#5｜日語語法解釋 何時何分、今何時ですか、〔時間〕に～、〔時間〕から〔時間〕まで", // 影片標題
+      "日文教學 初級日語#6｜日語語法解釋 何月何日、何曜日、〔名詞〕はいつですか／いつ～、〔名詞〕と〔名詞〕", // 影片標題
     quizs: [{ question: "", options: [], answer: "" }],
   },
 ];
