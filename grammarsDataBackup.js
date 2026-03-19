@@ -445,4 +445,119 @@ const data = [
       "日文教學 初級日語#6｜日語語法解釋 何月何日、何曜日、〔名詞〕はいつですか／いつ～、〔名詞〕と〔名詞〕", // 影片標題
     quizs: [{ question: "", options: [], answer: "" }],
   },
+  {
+    jid: "0801", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "8", // 集數
+    order: "01", // 第幾個
+    timestamp: 128, // 影片時間(秒)
+    grammarPattern: "(場所) に (人 / 物) が + あります / います", // 日文文法公式
+    grammarSummary: "が + あります / います", // 日文文法(簡式)
+    chineseMeaning: "在 (場所) 有 (人 / 物)", // 中文
+    chineseSummary: "有～", // 中文(簡式)
+    notes: [
+      "あります : 用於不具自我意志、不能自主移動的東西",
+      "例 : 花、草、家具",
+      "います : 用於有自我意志、能主動移動的生物",
+      "例 : 人、動物、蟲",
+      "模糊地帶 : 機器人、死掉的動物、飛奔過來的汽車",
+      "公式以ます形呈現 需依句意更換動詞形態",
+    ], // 備註
+    examples: [
+      {
+        japanese: "|部屋[へや]に|妹[いもうと]がいます",
+        chinese: "",
+      },
+      {
+        japanese: "|教室[きょうしつ]に|何[なに]がありますか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=zTFa-yUqkbU&t=128s", // 網址
+    videoTitle:
+      "日文教學_初級日語#8 ｜日語語法解釋 あります／います、位置を表す言葉", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0802", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "8", // 集數
+    order: "02", // 第幾個
+    timestamp: 320, // 影片時間(秒)
+    grammarPattern: "(人 / 物) は (場所) に + あります / います", // 日文文法公式
+    grammarSummary: "に + あります / います", // 日文文法(簡式)
+    chineseMeaning: "(人 / 物) 在 (場所)", // 中文
+    chineseSummary: "在～", // 中文(簡式)
+    notes: [
+      "あります : 用於不具自我意志、不能自主移動的東西",
+      "例 : 花、草、家具",
+      "います : 用於有自我意志、能主動移動的生物",
+      "例 : 人、動物、蟲",
+      "模糊地帶 : 機器人、死掉的動物、飛奔過來的汽車",
+      "公式以ます形呈現 需依句意更換動詞形態",
+    ], // 備註
+    examples: [
+      {
+        japanese: "パソコンは|部屋[へや]にあります",
+        chinese: "",
+      },
+      {
+        japanese: "|猫[ねこ]はどこにいますか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=zTFa-yUqkbU&t=320s", // 網址
+    videoTitle:
+      "日文教學_初級日語#8 ｜日語語法解釋 あります／います、位置を表す言葉", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0803", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "8", // 集數
+    order: "03", // 第幾個
+    timestamp: 466, // 影片時間(秒)
+    grammarPattern: "(名詞) の (方位)", // 日文文法公式
+    grammarSummary: "(方位)", // 日文文法(簡式)
+    chineseMeaning: "(名詞) 的 (方位)", // 中文
+    chineseSummary: "(方位)", // 中文(簡式)
+    notes: [
+      "上面 上 うえ",
+      "下面 下 した",
+      "旁邊 隣 となり",
+      "前面 前 まえ",
+      "後面 後ろ うしろ",
+      "側邊 側 そば",
+      "裡面 中 なか",
+      "外面 外 そと",
+    ], // 備註
+    examples: [
+      {
+        japanese: "|机[つくえ]の|上[うえ]に|手紙[てがみ]があります",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=zTFa-yUqkbU&t=466s", // 網址
+    videoTitle:
+      "日文教學_初級日語#8 ｜日語語法解釋 あります／います、位置を表す言葉", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "0901", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "9", // 集數
+    order: "01", // 第幾個
+    timestamp: 14, // 影片時間(秒)
+    grammarPattern: "(場所) へ", // 日文文法公式
+    grammarSummary: "へ", // 日文文法(簡式)
+    chineseMeaning: "(表示方向的助詞)", // 中文
+    chineseSummary: "(表示方向的助詞)", // 中文(簡式)
+    notes: ["【へ】在此用法讀音會變成【え】"], // 備註
+    examples: [
+      {
+        japanese: "|森[もり]さんは|北海道[ほっかいど]へ|行[い]きます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=4PSBJXCGyc0&t=14s", // 網址
+    videoTitle:
+      "日文教學_初級日語#9 ｜日語語法解釋 方向的助詞へ、表示移動的起点から、表示交通工具的助詞で、表示共同做某事的対象と", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
 ];

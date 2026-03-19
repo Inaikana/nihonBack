@@ -4,24 +4,24 @@ import { supabase } from "./src/config/supabase.ts";
 
 const data = [
   {
-    jid: "0701", // 自製id 第幾集的第幾個 例:第1集第1個
-    // episodeNumber: "6", // 集數
-    order: "5", // 第幾個
-    timestamp: 763, // 影片時間(秒)
-    grammarPattern: "と", // 日文文法公式
-    grammarSummary: "と", // 日文文法(簡式)
-    chineseMeaning: "和", // 中文
-    chineseSummary: "和", // 中文(簡式)
-    notes: [], // 備註
+    jid: "0902", // 自製id 第幾集的第幾個 例:第1集第1個
+    // episodeNumber: "9", // 集數
+    order: "01", // 第幾個
+    timestamp: 14, // 影片時間(秒)
+    grammarPattern: "(場所) へ", // 日文文法公式
+    grammarSummary: "へ", // 日文文法(簡式)
+    chineseMeaning: "(表示方向的助詞)", // 中文
+    chineseSummary: "(表示方向的助詞)", // 中文(簡式)
+    notes: ["【へ】在此用法讀音會變成【え】"], // 備註
     examples: [
       {
-        japanese: "|土曜日[どようび]と|日曜日[にちようび]に|休[やす]みます",
+        japanese: "|森[もり]さんは|北海道[ほっかいど]へ|行[い]きます",
         chinese: "",
       },
     ],
-    referenceUrl: "https://www.youtube.com/watch?v=qWKItLmn_3g&t=763s", // 網址
+    referenceUrl: "https://www.youtube.com/watch?v=4PSBJXCGyc0&t=14s", // 網址
     videoTitle:
-      "日文教學 初級日語#6｜日語語法解釋 何月何日、何曜日、〔名詞〕はいつですか／いつ～、〔名詞〕と〔名詞〕", // 影片標題
+      "日文教學_初級日語#9 ｜日語語法解釋 方向的助詞へ、表示移動的起点から、表示交通工具的助詞で、表示共同做某事的対象と", // 影片標題
     quizs: [{ question: "", options: [], answer: "" }],
   },
 ];
@@ -62,6 +62,8 @@ const uploadData = async () => {
 
 uploadData();
 
+// node upload.js
+
 /*
 幫我想三個初學日文等級的例句
 並用以下這種格式打給我
@@ -74,8 +76,16 @@ uploadData();
 */
 
 /*
-【需特別做的集數】
+【💛需特別做的集數】
 5-1 數字 時間 念法
+7全 動詞分類和ます形
 */
+
+/*
+【🩷動詞變化】
+ 7 ます形
+
+ 【💚🩵💙💜💕💕💓💗💖💘💝】
+ */
 
 // node upload.js
