@@ -4,24 +4,25 @@ import { supabase } from "./src/config/supabase.ts";
 
 const data = [
   {
-    jid: "0902", // 自製id 第幾集的第幾個 例:第1集第1個
-    // episodeNumber: "9", // 集數
-    order: "01", // 第幾個
-    timestamp: 14, // 影片時間(秒)
-    grammarPattern: "(場所) へ", // 日文文法公式
-    grammarSummary: "へ", // 日文文法(簡式)
-    chineseMeaning: "(表示方向的助詞)", // 中文
-    chineseSummary: "(表示方向的助詞)", // 中文(簡式)
-    notes: ["【へ】在此用法讀音會變成【え】"], // 備註
+    jid: "1901", // 自製id 第幾集的第幾個 例:第1集第1個
+    // episodeNumber: "18", // 集數
+    order: "02", // 第幾個
+    timestamp: 107, // 影片時間(秒)
+    grammarPattern: "(時間) に (次數) + (動詞)", // 日文文法公式
+    grammarSummary: "(時間) に (次數) + (動詞)", // 日文文法(簡式)"
+    chineseMeaning: "(在 (時間) 內執行(動詞)(次數) )", // 中文
+    chineseSummary: "(在 (時間) 內執行(動詞)(次數)  )", // 中文(簡式)
+    notes: [], // 備註
     examples: [
       {
-        japanese: "|森[もり]さんは|北海道[ほっかいど]へ|行[い]きます",
+        japanese:
+          "|一[いち]|年[ねん]に|一回[いっかい]|旅行[りょこう]に|行[い]きます",
         chinese: "",
       },
     ],
-    referenceUrl: "https://www.youtube.com/watch?v=4PSBJXCGyc0&t=14s", // 網址
+    referenceUrl: "https://www.youtube.com/watch?v=Pom3oj50vgI&t=107s", // 網址
     videoTitle:
-      "日文教學_初級日語#9 ｜日語語法解釋 方向的助詞へ、表示移動的起点から、表示交通工具的助詞で、表示共同做某事的対象と", // 影片標題
+      "日文教學 初級日語#18｜日語語法解釋 〔時間〕＋動詞、〔時間〕に〔次数〕＋動詞、〔場所〕へ〔動詞〕に行きます／来ます", // 影片標題
     quizs: [{ question: "", options: [], answer: "" }],
   },
 ];
@@ -65,7 +66,7 @@ uploadData();
 // node upload.js
 
 /*
-幫我想三個初學日文等級的例句
+幫我依此公式給我日文的例句
 並用以下這種格式打給我
 
 若有漢字 前面要有|
@@ -76,16 +77,30 @@ uploadData();
 */
 
 /*
+【常用備註】
+ "公式以ます形呈現 需依句意更換動詞形態"
+ (動詞連用形)
+ */
+
+/*
 【💛需特別做的集數】
 5-1 數字 時間 念法
 7全 動詞分類和ます形
+17-1 17-2 量詞和唸法
+
 */
 
 /*
 【🩷動詞變化】
  7 ます形
 
- 【💚🩵💙💜💕💕💓💗💖💘💝】
+ 【🩵形容詞】
+ 13 い形容詞 
+
+ 【💙 因為~所以~】
+ 15-3 15-4 だから / ですから
+
+ 【💜💕💕💓💗💖💘💝】
  */
 
 // node upload.js
