@@ -1,3 +1,5 @@
+// jid 3501 以前的都沒 【tags】 這個key
+
 const data = [
   {
     jid: "0202", // 自製id 第幾集的第幾個 例:第1集第1個
@@ -1408,5 +1410,1165 @@ const data = [
     videoTitle:
       "日文教學 初級日語#18｜日語語法解釋 〔時間〕＋動詞、〔時間〕に〔次数〕＋動詞、〔場所〕へ〔動詞〕に行きます／来ます", // 影片標題
     quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "1901", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "19", // 集數
+    order: "01", // 第幾個
+    timestamp: 21, // 影片時間(秒)
+    grammarPattern: "(名詞A) は (名詞B) より (形容詞)", // 日文文法公式
+    grammarSummary: "より (形容詞)", // 日文文法(簡式)"
+    chineseMeaning: "( 表示A比B更有 (形容詞) 的感覺 )", // 中文
+    chineseSummary: "( 更有 (形容詞) 的感覺 )", // 中文(簡式)
+    notes: ["A > B"], // 備註
+    examples: [
+      {
+        japanese: "|日本[にほん]は|台湾[たいわん]より|広[ひろ]いです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=gMphEHt-EQc&t=21s", // 網址
+    videoTitle:
+      "日文教學_初級日語#19｜日語語法解釋 表示比较的表达方法~は~より、~のほうが~、~ほど~ない、いちばん~、どち らが~", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "1902", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "19", // 集數
+    order: "02", // 第幾個
+    timestamp: 124, // 影片時間(秒)
+    grammarPattern: "(名詞A) より (名詞B) のほうが (形容詞)", // 日文文法公式
+    grammarSummary: "のほうが (形容詞)", // 日文文法(簡式)"
+    chineseMeaning: "( 表示和A相比 B更有 (形容詞) 的感覺 )", // 中文
+    chineseSummary: "( 更有 (形容詞) 的感覺 )", // 中文(簡式)
+    notes: ["B > A"], // 備註
+    examples: [
+      {
+        japanese: "|昨日[きのう]より|今日[きょう]のほうが|暑[あつ]いです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=gMphEHt-EQc&t=124s", // 網址
+    videoTitle:
+      "日文教學_初級日語#19｜日語語法解釋 表示比较的表达方法~は~より、~のほうが~、~ほど~ない、いちばん~、どち らが~", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "1903", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "19", // 集數
+    order: "03", // 第幾個
+    timestamp: 264, // 影片時間(秒)
+    grammarPattern: "(名詞A) は (名詞B) ほど (形容詞否定形)", // 日文文法公式
+    grammarSummary: "ほど (形容詞否定形)", // 日文文法(簡式)"
+    chineseMeaning: "( 表示A沒有B那麼具有 (形容詞) 的感覺 )", // 中文
+    chineseSummary: "( 沒有那麼具有 (形容詞) 的感覺 )", // 中文(簡式)
+    notes: ["A < B"], // 備註
+    examples: [
+      {
+        japanese: "|漢字[かんじ]は|仮名[かな]ほど|簡単[かんたん]ではありません",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=gMphEHt-EQc&t=264s", // 網址
+    videoTitle:
+      "日文教學_初級日語#19｜日語語法解釋 表示比较的表达方法~は~より、~のほうが~、~ほど~ない、いちばん~、どち らが~", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "1904", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "19", // 集數
+    order: "04", // 第幾個
+    timestamp: 348, // 影片時間(秒)
+    grammarPattern: "(名詞A) の中で (名詞B) が一番 (形容詞)", // 日文文法公式
+    grammarSummary: "一番 (形容詞)", // 日文文法(簡式)"
+    chineseMeaning: "在A之中 B最具 (形容詞) 的感覺", // 中文
+    chineseSummary: "最具 (形容詞) 的感覺", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|果物[くだもの]の|中[なか]で|苺[いちご]が|一番[いちばん]|好[す]きです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=gMphEHt-EQc&t=348s", // 網址
+    videoTitle:
+      "日文教學_初級日語#19｜日語語法解釋 表示比较的表达方法~は~より、~のほうが~、~ほど~ない、いちばん~、どち らが~", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "1905", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "19", // 集數
+    order: "05", // 第幾個
+    timestamp: 459, // 影片時間(秒)
+    grammarPattern: "(名詞A) と (名詞B) と + どちら + が (形容詞) ですか", // 日文文法公式
+    grammarSummary: "どちら + が (形容詞) ですか", // 日文文法(簡式)"
+    chineseMeaning: "A和B哪個具有 (形容詞) 的感覺", // 中文
+    chineseSummary: "哪個具有 (形容詞) 的感覺", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|犬[いぬ]と|猫[ねこ]とどちらが|好[す]きですか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=gMphEHt-EQc&t=459s", // 網址
+    videoTitle:
+      "日文教學_初級日語#19｜日語語法解釋 表示比较的表达方法~は~より、~のほうが~、~ほど~ない、いちばん~、どち らが~", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2002", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "20", // 集數
+    order: "02", // 第幾個
+    timestamp: 301, // 影片時間(秒)
+    grammarPattern: "(動詞て形) + ください", // 日文文法公式
+    grammarSummary: "(動詞て形) + ください", // 日文文法(簡式)"
+    chineseMeaning: "請做 (動詞)", // 中文
+    chineseSummary: "請做 (動詞)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|名前[なまえ]を|書[か]いてください",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=0ruMrORyCuQ&t=301s", // 網址
+    videoTitle:
+      "日文教學 初級日語#20｜日語語法 動詞て形的變形規則、て形＋ください、て形＋動詞", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2003", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "20", // 集數
+    order: "03", // 第幾個
+    timestamp: 374, // 影片時間(秒)
+    grammarPattern: "(動詞て形) + (動詞)", // 日文文法公式
+    grammarSummary: "(動詞て形) + (動詞)", // 日文文法(簡式)"
+    chineseMeaning: "(表示動作依序相繼發生)", // 中文
+    chineseSummary: "(表示動作依序相繼發生)", // 中文(簡式)
+    notes: [
+      "可用多個(動詞て形)接續 : (動詞て形) + (動詞て形)+ (動詞て形) +...+ (動詞)",
+    ], // 備註
+    examples: [
+      {
+        japanese: "|朝[あさ]|起[お]きて|顔[かお]を|洗[あら]います",
+        chinese: "",
+      },
+      {
+        japanese:
+          "|駅[えき]で|友達[ともだち]に|会[あ]って、|映画[えいが]を|見[み]て、お|茶[ちゃ]を|飲[の]んで|帰[かえ]りました",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=0ruMrORyCuQ&t=374s", // 網址
+    videoTitle:
+      "日文教學 初級日語#20｜日語語法 動詞て形的變形規則、て形＋ください、て形＋動詞", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2101", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "21", // 集數
+    order: "01", // 第幾個
+    timestamp: 30, // 影片時間(秒)
+    grammarPattern: "(動詞て形) + もいいです(か)", // 日文文法公式
+    grammarSummary: "もいいです(か)", // 日文文法(簡式)"
+    chineseMeaning: "可以做 (動詞) (嗎)", // 中文
+    chineseSummary: "可以做 (動詞) (嗎)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|写真[しゃしん]を|撮[と]ってもいいですか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=ACg2v-mjN1o&t=30s", // 網址
+    videoTitle: "日文教學_初級日語#21｜日語語法 使用動詞て形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2102", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "21", // 集數
+    order: "02", // 第幾個
+    timestamp: 201, // 影片時間(秒)
+    grammarPattern: "(動詞て形)はいけません", // 日文文法公式
+    grammarSummary: "～いけません", // 日文文法(簡式)"
+    chineseMeaning: "不可以做 (動詞) ", // 中文
+    chineseSummary: "不可以～", // 中文(簡式)
+    notes: ["公式以ます形呈現 需依句意更換動詞形態"], // 備註
+    examples: [
+      {
+        japanese: "|写真[しゃしん]を|撮[と]ってはいけません",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=ACg2v-mjN1o&t=201s", // 網址
+    videoTitle: "日文教學_初級日語#21｜日語語法 使用動詞て形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2103", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "21", // 集數
+    order: "03", // 第幾個
+    timestamp: 377, // 影片時間(秒)
+    grammarPattern: "(動詞て形) います", // 日文文法公式
+    grammarSummary: "(動詞て形) います", // 日文文法(簡式)"
+    chineseMeaning: "正在做 (動詞) ", // 中文
+    chineseSummary: "正在～", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|雨[あめ]が|降[ふ]っています",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=ACg2v-mjN1o&t=377s", // 網址
+    videoTitle: "日文教學_初級日語#21｜日語語法 使用動詞て形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2201", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "22", // 集數
+    order: "01", // 第幾個
+    timestamp: 23, // 影片時間(秒)
+    grammarPattern: "(動詞て形) + から + (動詞)", // 日文文法公式
+    grammarSummary: "(動詞て形) + から + (動詞)", // 日文文法(簡式)"
+    chineseMeaning: "(表示兩個動作接連發生)", // 中文
+    chineseSummary: "(表示兩個動作接連發生)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|手[て]を|洗[あら]ってからご|飯[はん]を|食[た]べます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=aRsDHZ1zxXk&t=23s", // 網址
+    videoTitle:
+      "日文教學_初級日語#22｜日語語法 使用動詞て形的語法｜て形＋から、て形＋あげます／もらいます／くれます", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2202", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "22", // 集數
+    order: "02", // 第幾個
+    timestamp: 330, // 影片時間(秒)
+    grammarPattern: "(人A) は (人B) に (動詞て形) あげます", // 日文文法公式
+    grammarSummary: "(動詞て形) あげます", // 日文文法(簡式)"
+    chineseMeaning: "A為B做(動詞)", // 中文
+    chineseSummary: "為～做(動詞)", // 中文(簡式)
+    notes: [
+      "建議先於第12集片頭了解「內人」、「外人」概念",
+      "公式以ます形呈現 需依句意更換動詞形態",
+    ], // 備註
+    examples: [
+      {
+        japanese:
+          "|私[わたし]は|友達[ともだち]に|日本語[にほんご]を|教[おし]えてあげました",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=aRsDHZ1zxXk&t=330s", // 網址
+    videoTitle:
+      "日文教學_初級日語#22｜日語語法 使用動詞て形的語法｜て形＋から、て形＋あげます／もらいます／くれます", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2203", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "22", // 集數
+    order: "03", // 第幾個
+    timestamp: 378, // 影片時間(秒)
+    grammarPattern: "(人A) は (人B) に (動詞て形) もらいます", // 日文文法公式
+    grammarSummary: "(動詞て形) もらいます", // 日文文法(簡式)"
+    chineseMeaning: "(表示A得到 B為A 執行動作)", // 中文
+    chineseSummary: "(表示得到某人執行動作的幫助)", // 中文(簡式)
+    notes: [
+      "建議先於第12集片頭了解「內人」、「外人」概念",
+      "公式以ます形呈現 需依句意更換動詞形態",
+    ], // 備註
+    examples: [
+      {
+        japanese:
+          "|私[わたし]は|先生[せんせい]に|日本語[にほんご]を|教[おし]えてもらいました",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=aRsDHZ1zxXk&t=378s", // 網址
+    videoTitle:
+      "日文教學_初級日語#22｜日語語法 使用動詞て形的語法｜て形＋から、て形＋あげます／もらいます／くれます", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2204", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "22", // 集數
+    order: "04", // 第幾個
+    timestamp: 408, // 影片時間(秒)
+    grammarPattern: "(人A) は (人B) に (動詞て形) くれます", // 日文文法公式
+    grammarSummary: "(動詞て形) くれます", // 日文文法(簡式)"
+    chineseMeaning: "A為B做(動詞)", // 中文
+    chineseSummary: "為～做(動詞)", // 中文(簡式)
+    notes: [
+      "建議先於第12集片頭了解「內人」、「外人」概念",
+      "公式以ます形呈現 需依句意更換動詞形態",
+    ], // 備註
+    examples: [
+      {
+        japanese:
+          "|田中[たなか]さんは|私[わたし]に|傘[かさ]を|貸[か]してくれました",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=aRsDHZ1zxXk&t=408s", // 網址
+    videoTitle:
+      "日文教學_初級日語#22｜日語語法 使用動詞て形的語法｜て形＋から、て形＋あげます／もらいます／くれます", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2301", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "23", // 集數
+    order: "01", // 第幾個
+    timestamp: 17, // 影片時間(秒)
+    grammarPattern: "(地方) を (動詞)", // 日文文法公式
+    grammarSummary: "(地方) を (動詞)", // 日文文法(簡式)"
+    chineseMeaning: "(表示經過、離開的助詞)", // 中文
+    chineseSummary: "(表示經過、離開的助詞)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|空[そら]を|飛[と]びます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=-AUMCivPZgc&t=17s", // 網址
+    videoTitle:
+      "日文教學_初級日語#23｜日語語法解釋 表示離開/經過的を、表示附著點的に、表示移動行為的目的地的に", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2302", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "23", // 集數
+    order: "02", // 第幾個
+    timestamp: 143, // 影片時間(秒)
+    grammarPattern: "(附著點) に (動詞)", // 日文文法公式
+    grammarSummary: "(附著點) に (動詞)", // 日文文法(簡式)"
+    chineseMeaning: "(表示附著在 (名詞) 上、內執行 (動詞))", // 中文
+    chineseSummary: "(表示附著在 (名詞) 上、內執行 (動詞))", // 中文(簡式)
+    notes: ["人或物體停留在特定物體上 (例:交通工具、椅子) 時使用"], // 備註
+    examples: [
+      {
+        japanese: "|椅子[いす]に|座[すわ]ります",
+        chinese: "",
+      },
+      {
+        japanese: "|電車[でんしゃ]に|乗[の]ります",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=-AUMCivPZgc&t=143s", // 網址
+    videoTitle:
+      "日文教學_初級日語#23｜日語語法解釋 表示離開/經過的を、表示附著點的に、表示移動行為的目的地的に", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2303", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "23", // 集數
+    order: "03", // 第幾個
+    timestamp: 253, // 影片時間(秒)
+    grammarPattern: "(目的地) に (動詞)", // 日文文法公式
+    grammarSummary: "(目的地) に (動詞)", // 日文文法(簡式)"
+    chineseMeaning: "(表示去、在 (目的地) 執行 (動詞))", // 中文
+    chineseSummary: "(表示去、在 (目的地) 執行 (動詞))", // 中文(簡式)
+    notes: ["表示去目的地的動機時 也可用「へ」代替「に」"], // 備註
+    examples: [
+      {
+        japanese: "|日本[にほん]に|行[い]きます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=-AUMCivPZgc&t=253s", // 網址
+    videoTitle:
+      "日文教學_初級日語#23｜日語語法解釋 表示離開/經過的を、表示附著點的に、表示移動行為的目的地的に", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2401", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "24", // 集數
+    order: "01", // 第幾個
+    timestamp: 22, // 影片時間(秒)
+    grammarPattern: "(名詞) が 欲しいです", // 日文文法公式
+    grammarSummary: "～欲しいです", // 日文文法(簡式)"
+    chineseMeaning: "想要 (名詞)", // 中文
+    chineseSummary: "想要～", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|銀河[ぎんが]の|輝[かがや]きが|欲[ほ]しいです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=YSSc01xAOa4&t=22s", // 網址
+    videoTitle:
+      "日文教學_初級日語#23｜日語語法解釋 表示離開/經過的を、表示附著點的に、表示移動行為的目的地的に", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2402", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "24", // 集數
+    order: "02", // 第幾個
+    timestamp: 127, // 影片時間(秒)
+    grammarPattern: " (動詞連用形) + たいです", // 日文文法公式
+    grammarSummary: "～たいです", // 日文文法(簡式)"
+    chineseMeaning: "想要做 (動詞)", // 中文
+    chineseSummary: "想要做～", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|未来[みらい]を|見[み]たいです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=YSSc01xAOa4&t=127s", // 網址
+    videoTitle:
+      "日文教學 初級日語#24｜日語語法解釋 表示願望時使用的～がほしい以及～たい／たくない的用法，全面否定的表達方法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2403", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "24", // 集數
+    order: "03", // 第幾個
+    timestamp: 255, // 影片時間(秒)
+    grammarPattern: " (動詞連用形) + たくないです", // 日文文法公式
+    grammarSummary: "～たくないです", // 日文文法(簡式)"
+    chineseMeaning: "不想做 (動詞)", // 中文
+    chineseSummary: "不想做～", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|現実[げんじつ]に|戻[もど]りたくないです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=YSSc01xAOa4&t=255s", // 網址
+    videoTitle:
+      "日文教學 初級日語#24｜日語語法解釋 表示願望時使用的～がほしい以及～たい／たくない的用法，全面否定的表達方法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2404", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "24", // 集數
+    order: "04", // 第幾個
+    timestamp: 454, // 影片時間(秒)
+    grammarPattern: "(疑問詞) も (否定形式)", // 日文文法公式
+    grammarSummary: "(疑問詞) も (否定形式)", // 日文文法(簡式)"
+    chineseMeaning: "什麼都不～", // 中文
+    chineseSummary: "什麼都不～", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|何[なに]も|見[み]えません",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=YSSc01xAOa4&t=454s", // 網址
+    videoTitle:
+      "日文教學 初級日語#24｜日語語法解釋 表示願望時使用的～がほしい以及～たい／たくない的用法，全面否定的表達方法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2405", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "24", // 集數
+    order: "05", // 第幾個
+    timestamp: 518, // 影片時間(秒)
+    grammarPattern: "(疑問詞) + にも / からも / とも + (否定形式)", // 日文文法公式
+    grammarSummary: "(疑問詞) + にも / からも / とも + (否定形式)", // 日文文法(簡式)"
+    chineseMeaning: "對誰也不、對哪也不 / 從誰也不、從哪也不 / 和誰也不", // 中文
+    chineseSummary: "對誰也不、對哪也不 / 從誰也不、從哪也不 / 和誰也不", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|誰[だれ]にも|教[おし]えません",
+        chinese: "",
+      },
+      {
+        japanese: "どこからも|連絡[れんらく]が|来[こ]ないです",
+        chinese: "",
+      },
+      {
+        japanese: "|誰[だれ]とも|会[あ]いたくないです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=YSSc01xAOa4&t=518s", // 網址
+    videoTitle:
+      "日文教學 初級日語#24｜日語語法解釋 表示願望時使用的～がほしい以及～たい／たくない的用法，全面否定的表達方法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2406", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "24", // 集數
+    order: "06", // 第幾個
+    timestamp: 600, // 影片時間(秒)
+    grammarPattern: "(疑問詞) + も / へも + (否定形式)", // 日文文法公式
+    grammarSummary: "(疑問詞) + も / へも + (否定形式)", // 日文文法(簡式)"
+    chineseMeaning: "(表示哪裡都不想前往)", // 中文
+    chineseSummary: "(表示哪裡都不想前往)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "どこへも|行[い]きません",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=YSSc01xAOa4&t=600s", // 網址
+    videoTitle:
+      "日文教學 初級日語#24｜日語語法解釋 表示願望時使用的～がほしい以及～たい／たくない的用法，全面否定的表達方法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2501", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "25", // 集數
+    order: "01", // 第幾個
+    timestamp: 52, // 影片時間(秒)
+    grammarPattern: " (動詞連用形) + ましょうか", // 日文文法公式
+    grammarSummary: " ～ましょうか", // 日文文法(簡式)"
+    chineseMeaning: "要幫忙做 (動詞) 嗎", // 中文
+    chineseSummary: "要幫忙嗎", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|荷物[にもつ]を|持[も]ちましょうか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xk4-IJPH080&t=52s", // 網址
+    videoTitle:
+      "日文教學_初級日語#25｜日語語法解釋 主動幫忙時使用的ましょうか、ませんか／ましょう／ましょうか的區別、〔疑問詞〕＋でも", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2502", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "25", // 集數
+    order: "02", // 第幾個
+    timestamp: 368, // 影片時間(秒)
+    grammarPattern: " (疑問句) でも", // 日文文法公式
+    grammarSummary: " ～でも", // 日文文法(簡式)"
+    chineseMeaning: "～都可以", // 中文
+    chineseSummary: "～都可以", // 中文(簡式)
+    notes: ["表示任何情況都相同"], // 備註
+    examples: [
+      {
+        japanese: "いつでも|大丈夫[だいじょうぶ]ですよ",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xk4-IJPH080&t=368s", // 網址
+    videoTitle:
+      "日文教學_初級日語#25｜日語語法解釋 主動幫忙時使用的ましょうか、ませんか／ましょう／ましょうか的區別、〔疑問詞〕＋でも", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2601", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "26", // 集數
+    order: "01", // 第幾個
+    timestamp: 31, // 影片時間(秒)
+    grammarPattern: " (い形容詞て形) + (形容詞)", // 日文文法公式
+    grammarSummary: " (い形容詞て形) + (形容詞)", // 日文文法(簡式)"
+    chineseMeaning: "(接續兩個形容詞)", // 中文
+    chineseSummary: "(接續兩個形容詞)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|今日[きょう]は|暖[あたた]かくて|良[い]い|天気[てんき]ですね",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=Ota7XXduEvo&t=31s", // 網址
+    videoTitle:
+      "日文教學 初級日語#26｜日語語法 い／な形容詞的て形、い／な形容詞和名詞並列時使用的語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2602", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "26", // 集數
+    order: "02", // 第幾個
+    timestamp: 182, // 影片時間(秒)
+    grammarPattern: " (な形容詞て形) + (形容詞)", // 日文文法公式
+    grammarSummary: " (な形容詞て形) + (形容詞)", // 日文文法(簡式)"
+    chineseMeaning: "(接續兩個形容詞)", // 中文
+    chineseSummary: "(接續兩個形容詞)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "この|店[みせ]の|店員[てんいん]さんは|親切[しんせつ]で|丁寧[ていねい]ですよ",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=Ota7XXduEvo&t=182s", // 網址
+    videoTitle:
+      "日文教學 初級日語#26｜日語語法 い／な形容詞的て形、い／な形容詞和名詞並列時使用的語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2603", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "26", // 集數
+    order: "03", // 第幾個
+    timestamp: 293, // 影片時間(秒)
+    grammarPattern: " (名詞A) で、(名詞B)", // 日文文法公式
+    grammarSummary: " (名詞A) で、(名詞B)", // 日文文法(簡式)"
+    chineseMeaning: "(用兩個名詞說明主詞)", // 中文
+    chineseSummary: "(用兩個名詞說明主詞)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|彼女[かのじょ]は|日本人[にほんじん]で、|大学生[だいがくせい]です",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=Ota7XXduEvo&t=293s", // 網址
+    videoTitle:
+      "日文教學 初級日語#26｜日語語法 い／な形容詞的て形、い／な形容詞和名詞並列時使用的語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2702", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "27", // 集數
+    order: "02", // 第幾個
+    timestamp: 233, // 影片時間(秒)
+    grammarPattern: " (動詞ない形) + でください", // 日文文法公式
+    grammarSummary: " (動詞ない形) + でください", // 日文文法(簡式)"
+    chineseMeaning: "請不要做 (動詞)", // 中文
+    chineseSummary: "請不要做 (動詞)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|写真[しゃしん]を|撮[と]らないでください",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=yMJ4naogPoM&t=233s", // 網址
+    videoTitle:
+      "日文教學 初級日語#27｜日語語法 動詞的ない形、使用ない形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2703", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "27", // 集數
+    order: "03", // 第幾個
+    timestamp: 352, // 影片時間(秒)
+    grammarPattern: " (動詞ない形 <去掉ない> ) + なければなりません", // 日文文法公式
+    grammarSummary: " ～なければなりません", // 日文文法(簡式)"
+    chineseMeaning: "必須做 (動詞)", // 中文
+    chineseSummary: "必須做～", // 中文(簡式)
+    notes: ["公式以ます形呈現 需依句意更換動詞形態"], // 備註
+    examples: [
+      {
+        japanese: "|明日[あした]|早[はや]く|起[お]きなければなりません",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=yMJ4naogPoM&t=352s", // 網址
+    videoTitle:
+      "日文教學 初級日語#27｜日語語法 動詞的ない形、使用ない形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2704", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "27", // 集數
+    order: "04", // 第幾個
+    timestamp: 454, // 影片時間(秒)
+    grammarPattern: " (動詞ない形 <去掉ない> ) + なくてもいいです", // 日文文法公式
+    grammarSummary: " ～なくてもいいです", // 日文文法(簡式)"
+    chineseMeaning: "不做 (動詞) 也可以", // 中文
+    chineseSummary: "不做～也可以", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "その|質問[しつもん]に|今[いま]|答[こた]えなくてもいいです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=yMJ4naogPoM&t=454s", // 網址
+    videoTitle:
+      "日文教學 初級日語#27｜日語語法 動詞的ない形、使用ない形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2801", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "28", // 集數
+    order: "01", // 第幾個
+    timestamp: 51, // 影片時間(秒)
+    grammarPattern: " (い形容詞 <去掉い> ) + くなります ", // 日文文法公式
+    grammarSummary: " (い形容詞 <去掉い> ) + くなります ", // 日文文法(簡式)"
+    chineseMeaning: "( 表示自然的變成 (形容詞) 的感覺 )", // 中文
+    chineseSummary: "( 表示自然的變成 (形容詞) 的感覺 )", // 中文(簡式)
+    notes: [
+      "公式以ます形呈現 需依句意更換動詞形態",
+      "なります : 表示性質和狀態的變化",
+    ], // 備註
+    examples: [
+      {
+        japanese: "|値段[ねだん]が|安[やす]くなりました",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xyLIs4l6PfY&t=51s", // 網址
+    videoTitle:
+      "日文教學_初級日語#28｜日語語法 い／な形容詞和名詞的變化 ～なります／します", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2802", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "28", // 集數
+    order: "02", // 第幾個
+    timestamp: 130, // 影片時間(秒)
+    grammarPattern: " (い形容詞 <去掉い> ) + くします ", // 日文文法公式
+    grammarSummary: " (い形容詞 <去掉い> ) + くします ", // 日文文法(簡式)"
+    chineseMeaning: "( 設法變成 (形容詞) 的感覺 )", // 中文
+    chineseSummary: "( 設法變成 (形容詞) 的感覺 )", // 中文(簡式)
+    notes: [
+      "公式以ます形呈現 需依句意更換動詞形態",
+      "します : 表示因主詞自我意志的動作或作用而產生的改變",
+    ], // 備註
+    examples: [
+      {
+        japanese: "テレビの|音[おと]を|小[ちい]さくしてください",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xyLIs4l6PfY&t=130s", // 網址
+    videoTitle:
+      "日文教學_初級日語#28｜日語語法 い／な形容詞和名詞的變化 ～なります／します", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2803", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "28", // 集數
+    order: "03", // 第幾個
+    timestamp: 198, // 影片時間(秒)
+    grammarPattern: " (な形容詞) + になります ", // 日文文法公式
+    grammarSummary: " (な形容詞) + になります ", // 日文文法(簡式)"
+    chineseMeaning: "( 表示自然的變成 (形容詞) 的感覺 )", // 中文
+    chineseSummary: "( 表示自然的變成 (形容詞) 的感覺 )", // 中文(簡式)
+    notes: [
+      "公式以ます形呈現 需依句意更換動詞形態",
+      "なります : 表示性質和狀態的變化",
+    ], // 備註
+    examples: [
+      {
+        japanese: "|静[しず]かになりました",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xyLIs4l6PfY&t=198s", // 網址
+    videoTitle:
+      "日文教學_初級日語#28｜日語語法 い／な形容詞和名詞的變化 ～なります／します", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2804", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "28", // 集數
+    order: "04", // 第幾個
+    timestamp: 282, // 影片時間(秒)
+    grammarPattern: " (な形容詞) + にします ", // 日文文法公式
+    grammarSummary: " (な形容詞) + にします ", // 日文文法(簡式)"
+    chineseMeaning: "( 設法變成 (形容詞) 的感覺 )", // 中文
+    chineseSummary: "( 設法變成 (形容詞) 的感覺 )", // 中文(簡式)
+    notes: [
+      "公式以ます形呈現 需依句意更換動詞形態",
+      "します : 表示因主詞自我意志的動作或作用而產生的改變",
+    ], // 備註
+    examples: [
+      {
+        japanese: "|部屋[へや]を|綺麗[きれい]にしてください",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xyLIs4l6PfY&t=282s", // 網址
+    videoTitle:
+      "日文教學_初級日語#28｜日語語法 い／な形容詞和名詞的變化 ～なります／します", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2805", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "28", // 集數
+    order: "05", // 第幾個
+    timestamp: 351, // 影片時間(秒)
+    grammarPattern: " (名詞) + になります ", // 日文文法公式
+    grammarSummary: " (名詞) + になります ", // 日文文法(簡式)"
+    chineseMeaning: "( 表示自然的變成 (名詞) )", // 中文
+    chineseSummary: "( 表示自然的變成 (名詞) )", // 中文(簡式)
+    notes: [
+      "公式以ます形呈現 需依句意更換動詞形態",
+      "なります : 表示性質和狀態的變化",
+    ], // 備註
+    examples: [
+      {
+        japanese: "もう|春[はる]になりました",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xyLIs4l6PfY&t=351s", // 網址
+    videoTitle:
+      "日文教學_初級日語#28｜日語語法 い／な形容詞和名詞的變化 ～なります／します", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2806", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "28", // 集數
+    order: "06", // 第幾個
+    timestamp: 430, // 影片時間(秒)
+    grammarPattern: " (名詞) + にします ", // 日文文法公式
+    grammarSummary: " (名詞) + にします ", // 日文文法(簡式)"
+    chineseMeaning: "( 設法變成 (名詞) )", // 中文
+    chineseSummary: "( 設法變成 (名詞) )", // 中文(簡式)
+    notes: [
+      "公式以ます形呈現 需依句意更換動詞形態",
+      "します : 表示因主詞自我意志的動作或作用而產生的改變",
+      "可用於把自己的決定告訴對方  例 : 點餐、買東西",
+    ], // 備註
+    examples: [
+      {
+        japanese: "|予定[よてい]を|明日[あした]にします",
+        chinese: "",
+      },
+      {
+        japanese: "|昼[ひる]ご|飯[はん]はラーメンにします",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=xyLIs4l6PfY&t=430s", // 網址
+    videoTitle:
+      "日文教學_初級日語#28｜日語語法 い／な形容詞和名詞的變化 ～なります／します", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2902", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "29", // 集數
+    order: "02", // 第幾個
+    timestamp: 267, // 影片時間(秒)
+    grammarPattern: " (動詞辭書形) + ことができます ", // 日文文法公式
+    grammarSummary: " ～ことができます ", // 日文文法(簡式)"
+    chineseMeaning: "會做 (動詞)", // 中文
+    chineseSummary: "會～", // 中文(簡式)
+    notes: ["公式以ます形呈現 需依句意更換動詞形態"], // 備註
+    examples: [
+      {
+        japanese: "|日本語[にほんご]を|話[はな]すことができます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=DyIBuF-IEdg&t=267s", // 網址
+    videoTitle:
+      "日文教學 初級日語#29｜日語語法 動詞的辭書形（基本形）＋使用辭書形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2903", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "29", // 集數
+    order: "03", // 第幾個
+    timestamp: 341, // 影片時間(秒)
+    grammarPattern: " (名詞) + ができます ", // 日文文法公式
+    grammarSummary: " ～ができます ", // 日文文法(簡式)"
+    chineseMeaning: "會做 (名詞)", // 中文
+    chineseSummary: "會～", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|彼女[かのじょ]は|料理[りょうり]ができます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=DyIBuF-IEdg&t=341s", // 網址
+    videoTitle:
+      "日文教學 初級日語#29｜日語語法 動詞的辭書形（基本形）＋使用辭書形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2904", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "29", // 集數
+    order: "04", // 第幾個
+    timestamp: 373, // 影片時間(秒)
+    grammarPattern: " (名詞) は (動詞辭書形) + ことです ", // 日文文法公式
+    grammarSummary: " (動詞辭書形) + ことです ", // 日文文法(簡式)"
+    chineseMeaning: "(名詞) 是做(動詞)", // 中文
+    chineseSummary: "會是做(動詞)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|将来[しょうらい]の|夢[ゆめ]は|日本[にほん]で|働[はたら]くことです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=DyIBuF-IEdg&t=373s", // 網址
+    videoTitle:
+      "日文教學 初級日語#29｜日語語法 動詞的辭書形（基本形）＋使用辭書形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2905", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "29", // 集數
+    order: "05", // 第幾個
+    timestamp: 481, // 影片時間(秒)
+    grammarPattern: " (動詞辭書形) + 前に ", // 日文文法公式
+    grammarSummary: " (動詞辭書形) + 前に ", // 日文文法(簡式)"
+    chineseMeaning: "在做(動詞)之前", // 中文
+    chineseSummary: "在做(動詞)之前", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|誰[だれ]かを|愛[あい]する|前[まえ]に|自分[じぶん]のことを|好[す]きと|言[い]えるようになれましたか",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=DyIBuF-IEdg&t=481s", // 網址
+    videoTitle:
+      "日文教學 初級日語#29｜日語語法 動詞的辭書形（基本形）＋使用辭書形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "2906", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "29", // 集數
+    order: "06", // 第幾個
+    timestamp: 578, // 影片時間(秒)
+    grammarPattern: " (名詞) + の前に ", // 日文文法公式
+    grammarSummary: " (名詞) + の前に ", // 日文文法(簡式)"
+    chineseMeaning: "在 (名詞) 這件事之前", // 中文
+    chineseSummary: "在 (名詞) 這件事之前", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|食事[しょくじ]の|前[まえ]に、|手[て]を|洗[あら]います",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=DyIBuF-IEdg&t=578s", // 網址
+    videoTitle:
+      "日文教學 初級日語#29｜日語語法 動詞的辭書形（基本形）＋使用辭書形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3002", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "30", // 集數
+    order: "02", // 第幾個
+    timestamp: 321, // 影片時間(秒)
+    grammarPattern: " (動詞た形) ことが + あります / ありません ", // 日文文法公式
+    grammarSummary: " (動詞た形) ことが + あります / ありません ", // 日文文法(簡式)"
+    chineseMeaning: "曾經做過 (動詞) / 不曾做過 (動詞)", // 中文
+    chineseSummary: "曾經做過 (動詞) / 不曾做過 (動詞)", // 中文(簡式)
+    notes: ["公式以ます形呈現 需依句意更換動詞形態"], // 備註
+    examples: [
+      {
+        japanese: "|日本[にほん]へ|行[い]ったことがあります",
+        chinese: "",
+      },
+      {
+        japanese: "|刺身[さしみ]を|食[た]べたことがありません",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=hl7dlevQg_4&t=321s", // 網址
+    videoTitle: "日文教學_初級日語#30｜日語語法 動詞的た形變形規則以及用法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3101", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "31", // 集數
+    order: "01", // 第幾個
+    timestamp: 31, // 影片時間(秒)
+    grammarPattern: " (動詞た形) 後で", // 日文文法公式
+    grammarSummary: " ～後で ", // 日文文法(簡式)"
+    chineseMeaning: "做完 (動詞)之後", // 中文
+    chineseSummary: "～之後", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|仕事[しごと]が|終[お]わった|後[あと]で、|友達[ともだち]と|食事[しょくじ]をします",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=VidjZAS3kpY&t=31s", // 網址
+    videoTitle: "日文教學_初級日語#31｜日語語法解釋 使用動詞た形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3102", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "31", // 集數
+    order: "02", // 第幾個
+    timestamp: 107, // 影片時間(秒)
+    grammarPattern: " (名詞) の後で", // 日文文法公式
+    grammarSummary: " ～の後で ", // 日文文法(簡式)"
+    chineseMeaning: "做完 (名詞)之後", // 中文
+    chineseSummary: "～之後", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese:
+          "|授業[じゅぎょう]の|後[あと]で、|図書館[としょかん]へ|行[い]きます",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=VidjZAS3kpY&t=107s", // 網址
+    videoTitle: "日文教學_初級日語#31｜日語語法解釋 使用動詞た形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3103", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "31", // 集數
+    order: "03", // 第幾個
+    timestamp: 140, // 影片時間(秒)
+    grammarPattern: " (動詞た形) ほうがいいです", // 日文文法公式
+    grammarSummary: " ～ほうがいいです", // 日文文法(簡式)"
+    chineseMeaning: "做 (動詞) 比較好", // 中文
+    chineseSummary: "～比較好", // 中文(簡式)
+    notes: ["表示建議別人做事"], // 備註
+    examples: [
+      {
+        japanese: "|雨[あめ]ですから、|傘[かさ]を|持[も]ったほうがいいです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=VidjZAS3kpY&t=140s", // 網址
+    videoTitle: "日文教學_初級日語#31｜日語語法解釋 使用動詞た形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3104", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "31", // 集數
+    order: "04", // 第幾個
+    timestamp: 160, // 影片時間(秒)
+    grammarPattern: " (動詞ない形) ほうがいいです", // 日文文法公式
+    grammarSummary: " (動詞ない形) ほうがいいです", // 日文文法(簡式)"
+    chineseMeaning: "別做 (動詞) 比較好", // 中文
+    chineseSummary: "別做 (動詞) 比較好", // 中文(簡式)
+    notes: ["表示建議別人別做某事"], // 備註
+    examples: [
+      {
+        japanese: "|無理[むり]をしないほうがいいです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=VidjZAS3kpY&t=160s", // 網址
+    videoTitle: "日文教學_初級日語#31｜日語語法解釋 使用動詞た形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3105", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "31", // 集數
+    order: "05", // 第幾個
+    timestamp: 268, // 影片時間(秒)
+    grammarPattern: " (動詞た形) り + (動詞た形) り + ... + します", // 日文文法公式
+    grammarSummary: " (動詞た形) り + (動詞た形) り + ... + します", // 日文文法(簡式)"
+    chineseMeaning: "(列舉多個動詞說明)", // 中文
+    chineseSummary: "(列舉多個動詞說明)", // 中文(簡式)
+    notes: ["公式以ます形呈現 需依句意更換動詞形態"], // 備註
+    examples: [
+      {
+        japanese:
+          "|週末[しゅうまつ]は、|本[ほん]を|読[よ]んだり、ゲームをしたりします",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=VidjZAS3kpY&t=268s", // 網址
+    videoTitle: "日文教學_初級日語#31｜日語語法解釋 使用動詞た形的三種語法", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3201", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "32", // 集數
+    order: "01", // 第幾個
+    timestamp: 11, // 影片時間(秒)
+    grammarPattern: "(名詞) に + よって / よります", // 日文文法公式
+    grammarSummary: "(名詞) に + よって / よります", // 日文文法(簡式)"
+    chineseMeaning: "根據(名詞)", // 中文
+    chineseSummary: "根據(名詞)", // 中文(簡式)
+    notes: ["若為句末 使用よります", "公式以ます形呈現 需依句意更換動詞形態"], // 備註
+    examples: [
+      {
+        japanese: "|国[くに]によって、|文化[ぶんか]が|違[ちが]います",
+        chinese: "",
+      },
+      {
+        japanese: "|考[かんが]え|方[かた]は、|人[ひと]によります",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=V_W3vT87KPQ&t=11s", // 網址
+    videoTitle:
+      "日文教學_初級日語#32｜日語語法解釋 表示情況・狀態有多種可能性的語法～り～り、～によって", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3202", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "32", // 集數
+    order: "02", // 第幾個
+    timestamp: 89, // 影片時間(秒)
+    grammarPattern: "(形容詞過去簡體形)り(形容詞過去簡體形)り", // 日文文法公式
+    grammarSummary: "(形容詞過去簡體形)り(形容詞過去簡體形)り", // 日文文法(簡式)"
+    chineseMeaning: "(用數個形容詞描述)", // 中文
+    chineseSummary: "(用數個形容詞描述)", // 中文(簡式)
+    notes: ["結尾用「です」或「します」都可以"], // 備註
+    examples: [
+      {
+        japanese:
+          "|最近[さいきん]の|天気[てんき]は|暑[あつ]かったり|寒[さむ]かったりです",
+        chinese: "",
+      },
+      {
+        japanese: "|道[みち]は|静[しず]かだったり|賑[にぎ]やかだったりします",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=V_W3vT87KPQ&t=89s", // 網址
+    videoTitle:
+      "日文教學_初級日語#32｜日語語法解釋 表示情況・狀態有多種可能性的語法～り～り、～によって", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3203", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "32", // 集數
+    order: "03", // 第幾個
+    timestamp: 359, // 影片時間(秒)
+    grammarPattern: "(名詞A)だったり(名詞B)だったり", // 日文文法公式
+    grammarSummary: "(名詞A)だったり(名詞B)だったり", // 日文文法(簡式)"
+    chineseMeaning: "(用數個名詞描述)", // 中文
+    chineseSummary: "(用數個名詞描述)", // 中文(簡式)
+    notes: [], // 備註
+    examples: [
+      {
+        japanese: "|昼[ひる]ごはんは|弁当[べんとう]だったりパンだったりです",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=V_W3vT87KPQ&t=359s", // 網址
+    videoTitle:
+      "日文教學_初級日語#32｜日語語法解釋 表示情況・狀態有多種可能性的語法～り～り、～によって", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+  },
+  {
+    jid: "3501", // 自製id 第幾集的第幾個 例:第1集第1個
+    episodeNumber: "35", // 集數
+    order: "01", // 第幾個
+    timestamp: 21, // 影片時間(秒)
+    grammarPattern: "(小句) かどうか", // 日文文法公式
+    grammarSummary: "かどうか", // 日文文法(簡式)"
+    chineseMeaning: "( 詢問 (小句) 是否屬實 )", // 中文
+    chineseSummary: "是不是、有沒有", // 中文(簡式)
+    notes: ["小句為使用簡體形的句子"], // 備註
+    examples: [
+      {
+        japanese: "|明日[あした]|雨[あめ]が|降[ふ]るかどうか|分[わ]かりません",
+        chinese: "",
+      },
+    ],
+    referenceUrl: "https://www.youtube.com/watch?v=-L-aHr-dxHU&t=21s", // 網址
+    videoTitle:
+      "日文教學_初級日語#35｜日語語法解釋 使用簡體形的兩種語法 小句＋かどうか、疑問詞小句＋か", // 影片標題
+    quizs: [{ question: "", options: [], answer: "" }],
+    tags: [],
   },
 ];
