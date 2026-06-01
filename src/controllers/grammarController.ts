@@ -7,6 +7,7 @@ export const grammarController = {
       const grammars = await grammarService.getGrammars();
       res.json(grammars);
     } catch (error: unknown) {
+      console.error("❌ 後端發生錯誤了：", error);
       const message = error instanceof Error ? error.message : "Unknown error";
       res.status(500).json({ error: message });
     }
