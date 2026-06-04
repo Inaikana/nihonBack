@@ -10,6 +10,9 @@ export const grammarController = {
 
       const keyword = req.query.keyword ? String(req.query.keyword) : undefined;
       const tag = req.query.tag ? String(req.query.tag) : undefined;
+      const episodeNumber = req.query.episodeNumber
+        ? String(req.query.episodeNumber)
+        : undefined;
       const page = req.query.page ? Number(req.query.page) : 1;
       const limit = req.query.limit ? Number(req.query.limit) : 20;
 
@@ -19,6 +22,7 @@ export const grammarController = {
       const grammars = await grammarService.getGrammars({
         keyword,
         tag,
+        episodeNumber,
         page,
         limit,
       });

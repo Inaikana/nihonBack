@@ -36,6 +36,7 @@ export interface GrammarRule {
 export interface GetGrammarsParams {
   keyword?: string;
   tag?: string;
+  episodeNumber?: string;
   page: number;
   limit: number;
 }

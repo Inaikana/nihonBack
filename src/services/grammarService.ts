@@ -5,6 +5,7 @@ export const grammarService = {
   async getGrammars({
     keyword,
     tag,
+    episodeNumber,
     page,
     limit,
   }: GetGrammarsParams): Promise<GetGrammarsResponse> {
@@ -35,6 +36,10 @@ export const grammarService = {
     // 在原本的 query 加上對tags的篩選
     if (tag) {
       query = query.contains("tags", [tag]);
+    }
+
+    if (episodeNumber) {
+      query = query.eq("episodeNumber", episodeNumber); // eq 意思是等於
     }
 
     // .order("jid", { ascending: true }) 意思是依照jid排序
