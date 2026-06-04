@@ -1,9 +1,5 @@
 import { supabase } from "../config/supabase";
-import {
-  GrammarRule,
-  GetGrammarsParams,
-  GetGrammarsResponse,
-} from "../types/GrammarRule";
+import { GetGrammarsParams, GetGrammarsResponse } from "../types/GrammarRule";
 
 export const grammarService = {
   async getGrammars({
@@ -12,28 +8,40 @@ export const grammarService = {
     page,
     limit,
   }: GetGrammarsParams): Promise<GetGrammarsResponse> {
-    // 1. 計算 Supabase range 區間
+    // :GetGrammarsParams】是定義前面物件的型別
+    // Promise<GetGrammarsResponse>】 是定義這個API函數回傳值的型別
+
+    //   計算這個頁數的資料區間 以一頁20筆為例  page=1 就是從第1筆到第20筆  page=2 就是從第21筆到第40筆
     const from = (page - 1) * limit;
     const to = from + limit - 1;
 
-    // 2. 初始化查詢，加上 { count: 'exact' } 才能拿總筆數
-    let query = supabase
-      .from("grammars") // 填入你的 Supabase 資料表名稱
-      .select("*", { count: "exact" });
+    //  Supabase語法 : { count: 'exact' }
+    //  'exact'  精準地計算符合條件的資料總數
+    //  'planned'：估算值。資料庫會用演算法大概猜一個數字
+    //  'estimated'：結合前兩者的估算方式
+    let query = supabase.from("grammars").select("*", { count: "exact" });
+    // query 表示篩選條件 以這行來說 目前還沒任何條件(白紙狀態)
 
-    // 3. 條件篩選：模糊搜尋關鍵字
+    //  supabase 提供方便的語法 當使用 query = query.or(條件A)  就是在原本的 query 加上條件A的篩選 (如下是加上關鍵字搜尋)
     if (keyword) {
       query = query.or(
-        `grammar_pattern.ilike.%${keyword}%,chinese_meaning.ilike.%${keyword}%,video_title.ilike.%${keyword}%`,
+        `grammarPattern.ilike.%${keyword}%,` +
+          `grammarSummary.ilike.%${keyword}%,` +
+          `chineseMeaning.ilike.%${keyword}%,` +
+          `chineseSummary.ilike.%${keyword}%`,
       );
     }
 
-    // 4. 條件篩選：標籤陣列包含特定標籤
+    // 在原本的 query 加上對tags的篩選
     if (tag) {
       query = query.contains("tags", [tag]);
     }
 
-    // 5. 分頁與排序
+    // .order("jid", { ascending: true }) 意思是依照jid排序
+    // ascending: true 代表升冪   false 就是降冪
+    // .range(from, to)：意思是「分頁」 只能拿第 from 筆到第 to 筆的資料
+
+    // query雖然不是API函數 但當它加上await時 就會依照當下篩選條件 自動去 supabase抓取資料
     const { data, error, count } = await query
       .order("jid", { ascending: true }) // 依據你的自製 id 排序
       .range(from, to);
@@ -42,7 +50,7 @@ export const grammarService = {
       throw new Error(error.message);
     }
 
-    // 6.
+    // 回傳的資料 包含data和分頁資訊
     return {
       success: true,
       data: data || [],
