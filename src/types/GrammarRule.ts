@@ -1,14 +1,17 @@
+// 例句
 export interface ExampleRule {
   japanese: string;
   chinese: string;
 }
 
+// 測驗 (未來製作)
 export interface QuizRule {
   question: string;
   options: string[];
   answer: string;
 }
 
+// 日文文法
 export interface GrammarRule {
   id: number;
   created_at: string;
@@ -25,5 +28,26 @@ export interface GrammarRule {
   referenceUrl: string;
   thumbnail: string;
   videoTitle: string;
+  tags: string[];
   quizs: QuizRule[];
+}
+
+// 路由參數
+export interface GetGrammarsParams {
+  keyword?: string;
+  tag?: string;
+  page: number;
+  limit: number;
+}
+
+//  API 回傳物件
+export interface GetGrammarsResponse {
+  success: boolean;
+  data: GrammarRule[];
+  pagination: {
+    totalItems: number;
+    currentPage: number;
+    totalPages: number;
+    limit: number;
+  };
 }
