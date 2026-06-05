@@ -44,7 +44,7 @@ export interface GetGrammarsParams {
 //  API 回傳物件
 export interface GetGrammarsResponse {
   success: boolean;
-  data: GrammarRule[];
+  grammarsData: GrammarRule[];
   pagination: {
     totalItems: number;
     currentPage: number;

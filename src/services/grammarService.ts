@@ -58,7 +58,7 @@ export const grammarService = {
     // 回傳的資料 包含data和分頁資訊
     return {
       success: true,
-      data: data || [],
+      grammarsData: data || [],
 
       //  pagination 回傳分頁情況給前端
       pagination: {
