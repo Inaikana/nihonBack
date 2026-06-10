@@ -4,7 +4,7 @@ import { GetGrammarsParams, GetGrammarsResponse } from "../types/GrammarRule";
 export const grammarService = {
   async getGrammars({
     keyword,
-    tag,
+    tags,
     episodeNumber,
     page,
     limit,
@@ -34,8 +34,8 @@ export const grammarService = {
     }
 
     // 在原本的 query 加上對tags的篩選
-    if (tag) {
-      query = query.contains("tags", [tag]);
+    if (tags) {
+      query = query.contains("tags", [tags]);
     }
 
     if (episodeNumber) {

@@ -35,7 +35,7 @@ export interface GrammarRule {
 // 路由參數
 export interface GetGrammarsParams {
   keyword?: string;
-  tag?: string;
+  tags?: string;
   episodeNumber?: string;
   page: number;
   limit: number;

@@ -9,7 +9,7 @@ export const grammarController = {
       // console.log("原始的 req.query:", req.query);
 
       const keyword = req.query.keyword ? String(req.query.keyword) : undefined;
-      const tag = req.query.tag ? String(req.query.tag) : undefined;
+      const tags = req.query.tags ? String(req.query.tag) : undefined;
       const episodeNumber = req.query.episodeNumber
         ? String(req.query.episodeNumber)
         : undefined;
@@ -17,11 +17,11 @@ export const grammarController = {
       const limit = req.query.limit ? Number(req.query.limit) : 20;
 
       // 🕵️‍♂️ 檢查點：看看轉換型別後的數字對不對
-      // console.log("轉換後的參數:", { keyword, tag, page, limit });
+      // console.log("轉換後的參數:", { keyword, tags, page, limit });
 
       const grammars = await grammarService.getGrammars({
         keyword,
-        tag,
+        tags,
         episodeNumber,
         page,
         limit,
