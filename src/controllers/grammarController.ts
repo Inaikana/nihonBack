@@ -9,7 +9,7 @@ export const grammarController = {
       // console.log("原始的 req.query:", req.query);
 
       const keyword = req.query.keyword ? String(req.query.keyword) : undefined;
-      const tags = req.query.tags ? String(req.query.tag) : undefined;
+      const tags = req.query.tags ? String(req.query.tags) : undefined;
       const episodeNumber = req.query.episodeNumber
         ? String(req.query.episodeNumber)
         : undefined;
