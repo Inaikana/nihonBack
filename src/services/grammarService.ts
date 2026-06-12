@@ -69,6 +69,25 @@ export const grammarService = {
       },
     };
   },
+
+  // 用 jid 來查詢單一筆文法資料的API函數 但暫時未使用
+  async getGrammarByJid(jid: string) {
+    const { data, error } = await supabase
+      .from("grammars")
+      .select("*")
+      .eq("jid", jid) // 只抓這個 jid
+      .maybeSingle(); // 找不到也不會炸，回傳 null
+    // .single();  // 如果你確定這個 jid 一定存在，也可以用 .single()
+
+    if (error) {
+      throw new Error(error.message);
+    }
+
+    return {
+      success: true,
+      grammar: data ?? null,
+    };
+  },
 };
 
 /*
